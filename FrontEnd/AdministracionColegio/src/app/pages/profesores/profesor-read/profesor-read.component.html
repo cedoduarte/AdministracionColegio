@@ -1,0 +1,21 @@
+<h2>Tabla de profesores</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Género</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (iProfesor of profesorList; track iProfesor) {
+            <tr>
+                <td>{{ iProfesor.id }}</td>
+                <td>{{ iProfesor.nombre }}</td>
+                <td>{{ iProfesor.apellidos }}</td>
+                <th>{{ iProfesor.genero }}</th>
+            </tr>
+        }
+    </tbody>
+</table>

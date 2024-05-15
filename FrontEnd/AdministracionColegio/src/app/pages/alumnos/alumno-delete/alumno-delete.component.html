@@ -1,0 +1,32 @@
+<h2>Eliminación de alumnos</h2>
+@if (showDeletionDialog) {
+<app-delete-confirmation-dialog (responseClicked)="handleDeletionResponse($event)" />
+}
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Género</th>
+            <th>Fecha de nacimiento</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (iAlumno of alumnoList; track iAlumno) {
+            <tr>
+                <td>{{ iAlumno.id }}</td>
+                <td>{{ iAlumno.nombre }}</td>
+                <td>{{ iAlumno.apellidos }}</td>
+                <th>{{ iAlumno.genero }}</th>
+                <th>{{ iAlumno.fechaNacimiento }}</th>
+                <th>
+                    <button type="button" (click)="deleteAlumno(iAlumno.id)">
+                        Eliminar
+                    </button>
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>

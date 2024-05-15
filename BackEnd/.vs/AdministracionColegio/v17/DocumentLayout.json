@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|c:\\users\\carlo\\source\\repos\\administracioncolegiobackend\\administracioncolegio\\cqrs\\grados\\command\\creategrado\\creategradohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|solutionrelative:administracioncolegio\\cqrs\\grados\\command\\creategrado\\creategradohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|c:\\users\\carlo\\source\\repos\\administracioncolegiobackend\\administracioncolegio\\cqrs\\alumnogrados\\command\\createalumnogrado\\createalumnogradohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|solutionrelative:administracioncolegio\\cqrs\\alumnogrados\\command\\createalumnogrado\\createalumnogradohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|c:\\users\\carlo\\source\\repos\\administracioncolegiobackend\\administracioncolegio\\cqrs\\grados\\viewmodel\\gradoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|solutionrelative:administracioncolegio\\cqrs\\grados\\viewmodel\\gradoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|c:\\users\\carlo\\source\\repos\\administracioncolegiobackend\\administracioncolegio\\cqrs\\profesores\\viewmodel\\profesorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|solutionrelative:administracioncolegio\\cqrs\\profesores\\viewmodel\\profesorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|c:\\users\\carlo\\source\\repos\\administracioncolegiobackend\\administracioncolegio\\cqrs\\alumnogrados\\viewmodel\\alumnogradoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46B44B-53E3-4A0C-9B5C-B1BFC7D88A3A}|AdministracionColegio\\AdministracionColegio.csproj|solutionrelative:administracioncolegio\\cqrs\\alumnogrados\\viewmodel\\alumnogradoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateGradoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\Grados\\Command\\CreateGrado\\CreateGradoHandler.cs",
+              "RelativeDocumentMoniker": "AdministracionColegio\\CQRS\\Grados\\Command\\CreateGrado\\CreateGradoHandler.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\Grados\\Command\\CreateGrado\\CreateGradoHandler.cs",
+              "RelativeToolTip": "AdministracionColegio\\CQRS\\Grados\\Command\\CreateGrado\\CreateGradoHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:45:52.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAlumnoGradoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\AlumnoGrados\\Command\\CreateAlumnoGrado\\CreateAlumnoGradoHandler.cs",
+              "RelativeDocumentMoniker": "AdministracionColegio\\CQRS\\AlumnoGrados\\Command\\CreateAlumnoGrado\\CreateAlumnoGradoHandler.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\AlumnoGrados\\Command\\CreateAlumnoGrado\\CreateAlumnoGradoHandler.cs",
+              "RelativeToolTip": "AdministracionColegio\\CQRS\\AlumnoGrados\\Command\\CreateAlumnoGrado\\CreateAlumnoGradoHandler.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T01:38:28.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GradoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\Grados\\ViewModel\\GradoViewModel.cs",
+              "RelativeDocumentMoniker": "AdministracionColegio\\CQRS\\Grados\\ViewModel\\GradoViewModel.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\Grados\\ViewModel\\GradoViewModel.cs",
+              "RelativeToolTip": "AdministracionColegio\\CQRS\\Grados\\ViewModel\\GradoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T01:38:16.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfesorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\Profesores\\ViewModel\\ProfesorViewModel.cs",
+              "RelativeDocumentMoniker": "AdministracionColegio\\CQRS\\Profesores\\ViewModel\\ProfesorViewModel.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\Profesores\\ViewModel\\ProfesorViewModel.cs",
+              "RelativeToolTip": "AdministracionColegio\\CQRS\\Profesores\\ViewModel\\ProfesorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T01:38:13.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlumnoGradoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\AlumnoGrados\\ViewModel\\AlumnoGradoViewModel.cs",
+              "RelativeDocumentMoniker": "AdministracionColegio\\CQRS\\AlumnoGrados\\ViewModel\\AlumnoGradoViewModel.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\AdministracionColegioBackend\\AdministracionColegio\\CQRS\\AlumnoGrados\\ViewModel\\AlumnoGradoViewModel.cs",
+              "RelativeToolTip": "AdministracionColegio\\CQRS\\AlumnoGrados\\ViewModel\\AlumnoGradoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T00:59:16.469Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

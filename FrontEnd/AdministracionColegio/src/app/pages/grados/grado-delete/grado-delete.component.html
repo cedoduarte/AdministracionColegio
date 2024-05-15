@@ -1,0 +1,25 @@
+<h2>Eliminación de grados</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Profesor</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (iGrado of gradoList; track iGrado) {
+            <tr>
+                <td>{{ iGrado.id }}</td>
+                <td>{{ iGrado.nombre }}</td>
+                <td>{{ iGrado.profesorNombre }}</td>
+                <th>
+                    <button type="button" (click)="deleteGrado(iGrado.id)">
+                        Eliminar
+                    </button>
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>

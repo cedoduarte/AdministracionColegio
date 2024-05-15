@@ -1,0 +1,8 @@
+<form class="alumno-grado-update-form" [formGroup]="updateAlumnoGradoForm" (ngSubmit)="handleSubmit()">
+    <h2>Actualizar relación entre Alumno y Grado</h2>
+    <input name="alumnoGradoId" formControlName="alumnoGradoId" placeholder="ID" type="text" (input)="idChanged($event)" />
+    <input name="alumnoId" formControlName="alumnoId" placeholder="Alumno ID" type="text" />
+    <input name="gradoId" formControlName="gradoId" placeholder="Grado ID" type="text" />
+    <input name="seccion" formControlName="seccion" placeholder="Sección" type="text" />
+    <button type="submit">Actualizar</button>
+</form>

@@ -1,0 +1,9 @@
+<form class="alumno-update-form" [formGroup]="updateAlumnoForm" (ngSubmit)="handleSubmit()">
+    <h2>Actualizar Alumno</h2>
+    <input name="alumnoId" formControlName="alumnoId" placeholder="ID" type="text" (input)="idChanged($event)" />
+    <input name="nombre" formControlName="nombre" placeholder="Nombre" type="text" />
+    <input name="apellidos" formControlName="apellidos" placeholder="Apellidos" type="text" />
+    <input name="genero" formControlName="genero" placeholder="Género: M/F" type="text" />
+    <input name="fechaNacimiento" formControlName="fechaNacimiento" placeholder="Fecha de nacimiento yyyy-mm-dd" type="text" />
+    <button type="submit">Actualizar</button>
+</form>

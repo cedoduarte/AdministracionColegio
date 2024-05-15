@@ -1,0 +1,7 @@
+<form class="alumno-grado-create-form" [formGroup]="createAlumnoGradoForm" (ngSubmit)="handleSubmit()">
+    <h2>Crear relación entre Alumno y Grado</h2>
+    <input name="alumnoId" formControlName="alumnoId" placeholder="Alumno ID" type="text" />
+    <input name="gradoId" formControlName="gradoId" placeholder="Grado ID" type="text" />
+    <input name="seccion" formControlName="seccion" placeholder="Sección" type="text" />
+    <button type="submit">Crear</button>
+</form>

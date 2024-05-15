@@ -1,0 +1,21 @@
+<h2>Tabla de relaciones entre Alumno y Grado</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Alumno</th>
+            <th>Grado</th>
+            <th>Sección</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (iAlumnoGrado of alumnoGradoList; track iAlumnoGrado) {
+            <tr>
+                <td>{{ iAlumnoGrado.id }}</td>
+                <td>{{ iAlumnoGrado.alumnoNombre }}</td>
+                <td>{{ iAlumnoGrado.gradoNombre }}</td>
+                <td>{{ iAlumnoGrado.seccion }}</td>
+            </tr>
+        }
+    </tbody>
+</table>

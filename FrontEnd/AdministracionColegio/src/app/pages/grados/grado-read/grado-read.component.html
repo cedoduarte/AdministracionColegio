@@ -1,0 +1,19 @@
+<h2>Tabla de grados</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Profesor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (iGrado of gradoList; track iGrado) {
+            <tr>
+                <td>{{ iGrado.id }}</td>
+                <td>{{ iGrado.nombre }}</td>
+                <td>{{ iGrado.profesorNombre }}</td>
+            </tr>
+        }
+    </tbody>
+</table>

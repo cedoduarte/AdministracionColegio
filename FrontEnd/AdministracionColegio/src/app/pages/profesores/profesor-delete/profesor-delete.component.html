@@ -1,0 +1,27 @@
+<h2>Eliminación de profesores</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Género</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (iProfesor of profesorList; track iProfesor) {
+            <tr>
+                <td>{{ iProfesor.id }}</td>
+                <td>{{ iProfesor.nombre }}</td>
+                <td>{{ iProfesor.apellidos }}</td>
+                <td>{{ iProfesor.genero }}</td>
+                <th>
+                    <button type="button" (click)="deleteProfesor(iProfesor.id)">
+                        Eliminar
+                    </button>
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>

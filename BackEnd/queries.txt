@@ -1,0 +1,24 @@
+#nombre del alumno
+#grado asignado
+#nombre de profesor
+
+SELECT concat(alumnos.nombre, alumnos.apellidos) AS 'Nombre Alumno', 
+grados.nombre AS 'Nombre Grado', 
+concat(profesores.nombre, profesores.apellidos) AS 'Nombre Profesor'
+FROM alumnos INNER JOIN alumnogrados ON alumnos.id = alumnogrados.alumnoid
+INNER JOIN grados ON grados.Id = alumnogrados.gradoid
+INNER JOIN profesores ON profesores.Id = grados.profesorid
+
+
+
+
+
+
+
+
+
+
+
+#alumnos nacidos antes del 2003
+
+SELECT * from alumnos where YEAR(fechaNacimiento) < 2003

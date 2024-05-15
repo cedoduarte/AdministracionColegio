@@ -1,0 +1,16 @@
+<form class="alumno-create-form" [formGroup]="createAlumnoForm" (ngSubmit)="handleSubmit()">
+    <h2>Crear Alumno</h2>
+    <input name="nombre" formControlName="nombre" placeholder="Nombre" type="text" />
+    <input name="apellidos" formControlName="apellidos" placeholder="Apellidos" type="text" />
+    <!--
+    <input name="genero" formControlName="genero" placeholder="Género: M/F" type="text" />
+    -->
+
+    <select name="genero" formControlName="genero">
+        <option value="M">Masculino</option>
+        <option value="F">Femenino</option>
+      </select>
+
+    <input name="fechaNacimiento" formControlName="fechaNacimiento" placeholder="Fecha de nacimiento yyyy-mm-dd" type="text" />
+    <button type="submit">Crear</button>
+</form>

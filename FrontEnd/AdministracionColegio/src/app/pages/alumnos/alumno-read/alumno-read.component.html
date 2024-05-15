@@ -1,0 +1,21 @@
+<h2>Tabla de alumnos</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre completo</th>
+            <th>Género</th>
+            <th>Fecha de nacimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (iAlumno of alumnoList; track iAlumno) {
+            <tr>
+                <td>{{ iAlumno.id }}</td>
+                <td>{{ iAlumno.nombre }} {{ iAlumno.apellidos }}</td>
+                <th>{{ iAlumno.genero }}</th>
+                <th>{{ iAlumno.fechaNacimiento }}</th>
+            </tr>
+        }
+    </tbody>
+</table>

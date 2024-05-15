@@ -1,0 +1,6 @@
+<form class="grado-create-form" [formGroup]="createGradoForm" (ngSubmit)="handleSubmit()">
+    <h2>Crear Grado</h2>
+    <input name="nombre" formControlName="nombre" placeholder="Nombre" type="text" />
+    <input name="profesorId" formControlName="profesorId" placeholder="Profesor ID" type="text" />
+    <button type="submit">Crear</button>
+</form>
